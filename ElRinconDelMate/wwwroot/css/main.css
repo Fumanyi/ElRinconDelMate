@@ -1,0 +1,131 @@
+header {
+    background-color: #6B8E23;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 5%;
+    z-index: 90;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav {
+    display: flex; 
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px; 
+    transition: color 0.3s, text-decoration 0.3s;
+
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  #logo {
+    position: relative; 
+    z-index: 100;
+  } 
+
+  #mateelectrico{
+    display: block;
+  }
+
+  #mateelectrico span{
+    margin-left: 1%;
+  }
+
+  #carrusel {
+    width: 100%;
+    margin: 50px auto;
+    position: relative;
+  }
+  
+  .contenedor-imagenes {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .contenedor-imagenes img {
+    width: 100%;
+  }
+  
+  .flecha {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .anterior {
+    left: 10px;
+  }
+  
+  .siguiente {
+    right: 10px;
+  }
+  
+  .puntos {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .punto {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .activo {
+    background-color: #717171;
+  }
+
+.contenedor-imagenes img {
+  width: 100%;
+  transition: transform 1.0s ease-in-out;
+}
+
+#Mantenimiento {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+#centrar-imagen{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.noticias {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-between;
+}
+
+.noticia {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  height: auto;
+}

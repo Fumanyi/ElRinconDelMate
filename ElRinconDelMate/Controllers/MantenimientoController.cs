@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ElRinconDelMate.Controllers
 {
-    public class HomeController : Controller
+    public class MantenimientoController : Controller
     {
         public IActionResult Index()
         {
